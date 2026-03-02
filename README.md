@@ -24,11 +24,11 @@ The objective of this project was to:
 📂 Dataset Overview
 
 The dataset includes environmental and weather-related features such as:
-Temperature
-Relative humidity
-Wind speed
-Rainfall
-Fire Weather Index (FWI) (target variable)
+1. Temperature
+2. Relative humidity
+3. Wind speed
+4. Rainfall
+5. Fire Weather Index (FWI) (target variable)
 
 The goal was to predict the Fire weather Index value based on these inputs.
 🔍 Approach
