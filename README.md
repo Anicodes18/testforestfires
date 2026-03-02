@@ -15,8 +15,9 @@ This project uses the Algerian Forest Fires dataset to:
 3. Translate a trained machine learning model into a production-ready web application
 
 🎯 Objective
+
 The objective of this project was to:
-1. Build and evaluate a machine learning classification model
+1. Build and evaluate a machine learning regression model
 2. Develop a user-friendly web interface for real-time predictions
 3. Deploy the application to the cloud
 4. Implement a CI/CD pipeline for automated updates
@@ -33,24 +34,27 @@ The dataset includes environmental and weather-related features such as:
 The goal was to predict the Fire weather Index value based on these inputs.
 🔍 Approach
 1️⃣ Data Preprocessing
-Data cleaning and handling missing values
-Feature selection and transformation
-Train-test split
+1. Data cleaning and handling missing values
+2. Feature selection and transformation
+3. Train-test split
 
 2️⃣ Model Development
-Trained regression models
-Evaluated performance using appropriate metrics (Mean Absolute Error (MAE), R2-score)
-Applied hyperparameter tuning to improve generalization
+
+1. Trained regression models
+2. Evaluated performance using appropriate metrics (Mean Absolute Error (MAE), R2-score)
+3. Applied hyperparameter tuning to improve generalization
 
 3️⃣ Web Application Development
-Built a Flask-based web application
-Designed input forms for environmental parameters
-Integrated the trained ML model for real-time predictions
+
+1. Built a Flask-based web application
+2. Designed input forms for environmental parameters
+3. Integrated the trained ML model for real-time predictions
 
 4️⃣ Deployment & Automation
-Deployed the application using AWS Elastic Beanstalk
-Configured AWS CodePipeline for continuous integration and automated deployment
-Integrated version control with GitHub
+
+1. Deployed the application using AWS Elastic Beanstalk
+2. Configured AWS CodePipeline for continuous integration and automated deployment
+3. Integrated version control with GitHub
 
 🤖 Model Evaluation
 Models were evaluated using regression metrics to ensure balanced performance and to reduce overfitting.
